@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DanTanksLegacy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DanTanksLegacy_jar</output-path>
+    <root id="archive" name="DanTanksLegacy.jar">
+      <element id="module-output" name="DanTanksLegacy" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slick2D/lib/slick.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slick2D/lib/lwjgl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/vecmath-1.5.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
