@@ -84,7 +84,7 @@ public class EasyAI extends TankAI {
 		angle += Random.Float(-5, 5);
 		power = Range.Constrain(power + Random.Float(-5, 5), 20, 40);
 		
-		return new AnglePowerAimData(angle, power, playerTank);
+		return new AnglePowerAimData(angle, power / 5, playerTank);
 	}
 	TankObj getClosestTank(TankObj playerTank, Level level) throws AIException {
 		TankObj closestTank = null;

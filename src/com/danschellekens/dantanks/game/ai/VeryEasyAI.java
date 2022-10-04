@@ -84,7 +84,7 @@ public class VeryEasyAI extends TankAI {
 		angle += Random.Float(-10, 10);
 		power = Range.Constrain(power + Random.Float(-10, 10), 20, 40);
 		
-		return new AnglePowerAimData(angle, power, playerTank);
+		return new AnglePowerAimData(angle, power / 5, playerTank);
 	}
 	TankObj getRandomTank(TankObj playerTank, Level level) throws AIException {
 		return Random.ArrayElement(level.getTanks());

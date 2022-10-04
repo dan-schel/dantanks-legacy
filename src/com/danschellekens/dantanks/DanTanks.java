@@ -19,7 +19,7 @@ import com.danschellekens.operations.Version;
 import com.danschellekens.slick2d.graphics.Artist;
 
 public class DanTanks extends DanGame {
-	public static final Version GAME_VERSION = new Version(1,0);
+	public static final Version GAME_VERSION = new Version(1,0, 1);
 	public static final DanTanks GAME = new DanTanks();
 	
 	Page page;
